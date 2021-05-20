@@ -13,6 +13,15 @@ and open the template in the editor.
     <body>
         <div>TODO write content</div>
         
-        <% out.print("Hola JSP"); %>
+        <% 
+        
+        out.print("Hola JSP"); 
+        for(int i=1; i<=10;i++){
+            out.print("hola mundo");
+        }
+        
+        %>
+
+
     </body>
 </html>
